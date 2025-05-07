@@ -1,0 +1,10 @@
+def eje10():
+    print("Ingrese el valor de la calificacion de los examenes parciales")
+    calif1 = float(input())
+    print("Ingrese el valor de la calificacion de los trabajos parciales")
+    calif2 = float(input())
+    print("Ingrese el valor de la calificacion del examen integrador")
+    calif3 = float(input())
+    calificacionfinal = (calif1 * 0.3 + calif2 * 0.2 + calif3 * 0.5)
+    print("La calificacion final es: ", calificacionfinal)
+eje10()
